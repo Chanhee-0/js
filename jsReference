@@ -1,0 +1,20 @@
+const a = 5; // 변경 불가능
+const b = "hello";
+
+let myName = "chan"; // 변경 가능
+
+alert("hi"); // 알림
+alert(myName);
+
+myName = "hee";
+
+console.log(myName); // 콘솔에 기록
+
+const player { // object 생성
+name: "chan",
+points: 10,
+fat: true,
+};
+
+player.points += 15; // 안에 변수값 변경 가능
+player.lastname = "hee";
